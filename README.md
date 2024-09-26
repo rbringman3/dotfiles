@@ -3,7 +3,7 @@
 ```
 mkdir ~/.dotfiles
 cd ~/.dotfiles
-curl -JLO https://github.com/rbringman3/dotfiles/archive/refs/heads/main.zip
+curl -JLSs https://api.github.com/repos/rbringman3/dotfiles/tarball -o dotfiles.tar.gz
 stow nvim bash zsh tmux iTerm2
 ```
 
