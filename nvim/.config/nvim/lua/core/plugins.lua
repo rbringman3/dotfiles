@@ -24,7 +24,7 @@ local plugins = {
   'akinsho/bufferline.nvim', branch="main",
   'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
   'junegunn/vim-xmark',
-  'prichrd/netrw',
+--  'prichrd/netrw',
   "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {},
 }
 
