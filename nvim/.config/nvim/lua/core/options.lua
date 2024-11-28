@@ -8,6 +8,7 @@ vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
 vim.opt.guicursor = 'n-v-c-sm:block,ci-ve:ver25,r-cr-o:hor20,i:block-blinkwait450-blinkoff400-blinkon250-Cursor/lCursor'
+vim.opt.title = true
 
 -- use spaces for tabs and whatnot
 vim.opt.tabstop = 4
@@ -29,7 +30,7 @@ vim.cmd [[
 autocmd VimEnter * if getcwd() == '/' | cd ~ | endif
 ]]
 
-
+-- runtime scaling
 if vim.g.neovide then
     vim.keymap.set({ "n", "v" }, "<D-+>", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>")
     vim.keymap.set({ "n", "v" }, "<D-->", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>")

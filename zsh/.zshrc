@@ -3,7 +3,8 @@ PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{blue}%~%f%b %# '
 RPROMPT='%*'
 
 precmd() {
-	echo -en "\033];zsh:${PWD}\007"
+	# echo -en "\033];zsh:${PWD}\007"
+    echo -ne "\033]0;zsh:${PWD}\007"
 }
 
 # aliases
