@@ -45,5 +45,11 @@ config.font_size = 16
 config.enable_tab_bar = true
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 
+-- Dim inactive panes
+config.inactive_pane_hsb = {
+      saturation = 0.9,
+      brightness = 0.8,
+    }
+
 -- and finally, return the configuration to wezterm
 return config
