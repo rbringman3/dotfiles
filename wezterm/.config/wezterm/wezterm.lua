@@ -46,8 +46,9 @@ local config = wezterm.config_builder()
 -- config.font = wezterm.font('Inconsolata Nerd Font', { weight = 'Bold' })
 config.font_size = 15
 
--- config.font = wezterm.font 'Hack Nerd Font'
+-- brew install --cask font-fira-code-nerd-font
 config.font = wezterm.font 'FiraCode Nerd Font'
+-- config.font = wezterm.font 'Hack Nerd Font'
 -- config.font = wezterm.font 'MonaspiceAr Nerd Font'
 -- config.font = wezterm.font('FiraCode Nerd Font', { weight = 'Bold' })
 -- config.font = wezterm.font('MonaspiceNe Nerd Font', { weight = 'Medium' })
