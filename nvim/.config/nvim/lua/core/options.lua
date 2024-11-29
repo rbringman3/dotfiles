@@ -1,14 +1,13 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-vim.opt.backspace = '2'
 vim.opt.showcmd = true
-vim.opt.laststatus = 2
 vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
 vim.opt.guicursor = 'n-v-c-sm:block,ci-ve:ver25,r-cr-o:hor20,i:block-blinkwait450-blinkoff400-blinkon250-Cursor/lCursor'
 vim.opt.title = true
+vim.opt.termguicolors = true
 
 -- use spaces for tabs and whatnot
 vim.opt.tabstop = 4
@@ -16,6 +15,8 @@ vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftround = true
 vim.opt.expandtab = true
+vim.opt.backspace = '2'
+vim.opt.laststatus = 2
 
 vim.cmd [[ set noswapfile ]]
 

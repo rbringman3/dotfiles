@@ -31,9 +31,9 @@ end)
 wezterm.on('update-status', function(window, pane)
   local overrides = window:get_config_overrides() or {}
   if window:is_focused() then
-    overrides.color_scheme = 'nordfox'
-  else
     overrides.color_scheme = 'nightfox'
+  else
+    overrides.color_scheme = 'nordfox'
   end
   window:set_config_overrides(overrides)
 end)

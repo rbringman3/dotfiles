@@ -15,6 +15,7 @@ set backspace=2
 set autowrite
 set autoread
 set number
+set ruler
 set showcmd
 
 let g:clipboard = "unnamedplus"
