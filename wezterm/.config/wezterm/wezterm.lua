@@ -7,7 +7,7 @@ wezterm.on('update-right-status', function(window, pane)
 
     -- Make it italic and underlined
     window:set_right_status(wezterm.format {
-        { Text = 'WezTerm - ' .. date },
+        { Text = '  WezTerm - ' .. date },
     })
 end)
 
@@ -43,11 +43,11 @@ local config = wezterm.config_builder()
 
 -- Font stuff
 -- config.color_scheme = 'Novel'
-config.font = wezterm.font('Inconsolata Nerd Font', { weight = 'Bold' })
-config.font_size = 16
+-- config.font = wezterm.font('Inconsolata Nerd Font', { weight = 'Bold' })
+config.font_size = 15
 
 -- config.font = wezterm.font 'Hack Nerd Font'
--- config.font = wezterm.font 'FiraCode Nerd Font'
+config.font = wezterm.font 'FiraCode Nerd Font'
 -- config.font = wezterm.font 'MonaspiceAr Nerd Font'
 -- config.font = wezterm.font('FiraCode Nerd Font', { weight = 'Bold' })
 -- config.font = wezterm.font('MonaspiceNe Nerd Font', { weight = 'Medium' })
