@@ -9,7 +9,7 @@ precmd() {
 
 # aliases
 alias cribs='neovide --fork ~/Library/Mobile\ Documents/com~apple~CloudDocs/Work/Cribs/'
-# alias vi='neovide --fork'
+alias nvim='neovide --fork'
 # alias view='neovide --fork -- -R'
 alias outlook='2>/dev/null msgconvert --outfile - '
 

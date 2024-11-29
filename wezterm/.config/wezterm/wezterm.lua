@@ -26,11 +26,23 @@ wezterm.on('format-window-title', function(tab, pane, tabs, panes, config)
     return zoomed .. index .. tab.active_pane.title
 end)
 
+-- dim inactive windows
+-- https://wezfurlong.org/wezterm/config/lua/window/is_focused.html
+wezterm.on('update-status', function(window, pane)
+  local overrides = window:get_config_overrides() or {}
+  if window:is_focused() then
+    overrides.color_scheme = 'nordfox'
+  else
+    overrides.color_scheme = 'nightfox'
+  end
+  window:set_config_overrides(overrides)
+end)
+
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
 -- Font stuff
-config.color_scheme = 'Novel'
+-- config.color_scheme = 'Novel'
 config.font = wezterm.font('Inconsolata Nerd Font', { weight = 'Bold' })
 config.font_size = 16
 
