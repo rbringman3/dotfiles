@@ -31,9 +31,9 @@ end)
 wezterm.on('update-status', function(window, pane)
   local overrides = window:get_config_overrides() or {}
   if window:is_focused() then
-    overrides.color_scheme = 'nightfox'
+    overrides.color_scheme = 'Novel'
   else
-    overrides.color_scheme = 'nordfox'
+    overrides.color_scheme = 'Belafonte Day'
   end
   window:set_config_overrides(overrides)
 end)
@@ -54,6 +54,7 @@ config.font = wezterm.font 'FiraCode Nerd Font'
 -- config.font = wezterm.font('MonaspiceNe Nerd Font', { weight = 'Medium' })
 -- config.cell_width = 0.9
 
+config.force_reverse_video_cursor = true
 -- Window boarder
 config.enable_tab_bar = true
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"

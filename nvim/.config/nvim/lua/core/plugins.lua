@@ -17,6 +17,7 @@ local plugins = {
   'nvim-lualine/lualine.nvim',
   'nvim-treesitter/nvim-treesitter',
   'EdenEast/nightfox.nvim',
+  'morhetz/gruvbox',
   'nvim-lua/plenary.nvim',
   'nvim-telescope/telescope.nvim',
 --  'nanozuki/tabby.nvim', 
