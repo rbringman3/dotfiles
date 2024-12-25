@@ -21,10 +21,12 @@ syntax on
 
 let g:clipboard = "unnamedplus"
 
+# easier move between panes
 nnoremap <c-k> :wincmd k<cr>
 nnoremap <c-j> :wincmd j<cr>
 nnoremap <c-h> :wincmd h<cr>
 nnoremap <c-l> :wincmd l<cr>
 
+# clear highlighting
 nnoremap <leader>h :nohlsearch<cr>
 
