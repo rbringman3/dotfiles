@@ -55,6 +55,7 @@ config.font = wezterm.font 'FiraCode Nerd Font'
 -- config.cell_width = 0.9
 
 config.force_reverse_video_cursor = true
+
 -- Window boarder
 config.enable_tab_bar = true
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"

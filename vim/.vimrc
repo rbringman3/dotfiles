@@ -17,6 +17,7 @@ set autoread
 set number
 set ruler
 set showcmd
+syntax on
 
 let g:clipboard = "unnamedplus"
 

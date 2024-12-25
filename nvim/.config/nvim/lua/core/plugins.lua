@@ -16,8 +16,11 @@ local plugins = {
   'nvim-tree/nvim-web-devicons',
   'nvim-lualine/lualine.nvim',
   'nvim-treesitter/nvim-treesitter',
+  'kenn7/vim-arsync',
+  'prabirshrestha/async.vim',
   'EdenEast/nightfox.nvim',
   'morhetz/gruvbox',
+  'rebelot/kanagawa.nvim',
   'nvim-lua/plenary.nvim',
   'nvim-telescope/telescope.nvim',
 --  'nanozuki/tabby.nvim', 
@@ -25,6 +28,7 @@ local plugins = {
   'akinsho/bufferline.nvim', branch="main",
   'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
   'junegunn/vim-xmark',
+--  'williambowman/mason.nvim',
 --  'prichrd/netrw',
   "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {},
 }

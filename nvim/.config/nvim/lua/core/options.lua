@@ -28,7 +28,7 @@ vim.opt.clipboard = "unnamedplus"
 
 -- Ensure the default directory is the home directory only if starting in '/'
 vim.cmd [[
-autocmd VimEnter * if getcwd() == '/' | cd ~ | endif
+autocmd VimEnter * if getcwd() == '/' | cd ~/Documents | endif
 ]]
 
 -- runtime scaling
@@ -51,8 +51,8 @@ if vim.g.neovide then
 end
 
 -- Allow clipboard copy paste in neovim
-vim.api.nvim_set_keymap('', '<D-v>', '+p<CR>', { noremap = true, silent = true})
-vim.api.nvim_set_keymap('!', '<D-v>', '<C-R>+', { noremap = true, silent = true})
-vim.api.nvim_set_keymap('t', '<D-v>', '<C-R>+', { noremap = true, silent = true})
-vim.api.nvim_set_keymap('v', '<D-v>', '<C-R>+', { noremap = true, silent = true})
+-- vim.api.nvim_set_keymap('', '<D-v>', '+p<CR>', { noremap = true, silent = true})
+-- vim.api.nvim_set_keymap('!', '<D-v>', '<C-R>+', { noremap = true, silent = true})
+-- vim.api.nvim_set_keymap('t', '<D-v>', '<C-R>+', { noremap = true, silent = true})
+-- vim.api.nvim_set_keymap('v', '<D-v>', '<C-R>+', { noremap = true, silent = true})
 
