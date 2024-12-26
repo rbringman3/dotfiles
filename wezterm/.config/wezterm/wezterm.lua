@@ -54,7 +54,7 @@ config.font = wezterm.font 'FiraCode Nerd Font'
 -- config.font = wezterm.font('MonaspiceNe Nerd Font', { weight = 'Medium' })
 -- config.cell_width = 0.9
 
-config.force_reverse_video_cursor = true
+-- config.force_reverse_video_cursor = true
 
 -- Window boarder
 config.enable_tab_bar = true
