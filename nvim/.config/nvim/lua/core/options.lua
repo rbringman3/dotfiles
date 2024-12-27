@@ -17,6 +17,7 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 vim.opt.backspace = '2'
 vim.opt.laststatus = 2
+vim.opt.scrolloff = 4
 
 vim.cmd [[ set noswapfile ]]
 

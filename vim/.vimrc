@@ -11,6 +11,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set backspace=2
+set scrolloff=4
 
 set autowrite
 set autoread
