@@ -1,6 +1,6 @@
 # zsh prompt - from https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{blue}%~%f%b %# '
-RPROMPT='%*'
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %n@%m %B%F{blue}%~%f%b %# '
+RPROMPT='⏱ %*'
 
 precmd() {
 	# echo -en "\033];zsh:${PWD}\007"
