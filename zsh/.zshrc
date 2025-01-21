@@ -1,5 +1,5 @@
 # zsh prompt - from https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %F{yellow}%n%f@%F{green}%m%f %B%F{blue}%~%f%b %# '
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %F{yellow}%n%f@%F{green}%m%f:%B%F{blue}%~%f%b %# '
 RPROMPT='⏱ %*'
 
 precmd() {

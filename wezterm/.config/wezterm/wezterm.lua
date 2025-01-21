@@ -1,3 +1,4 @@
+
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
 
@@ -5,9 +6,8 @@ local wezterm = require 'wezterm'
 wezterm.on('update-right-status', function(window, pane)
     local date = wezterm.strftime '%a %b %d, %Y %H:%M:%S %p   '
 
-    -- Make it italic and underlined
-    window:set_right_status(wezterm.format {
-        { Text = '  WezTerm - ' .. date },
+	window:set_right_status(wezterm.format {
+		{ Text = ' Wezterm - ' .. date },
     })
 end)
 
