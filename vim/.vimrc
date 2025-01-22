@@ -2,7 +2,8 @@ let g:mapleader = ' '
 let g:maplocalleader = ' '
 
 set cursorline
-highlight CursorLine term=bold cterm=underline
+" highlight CursorLine term=bold cterm=underline
+highlight CursorLine term=bold cterm=none ctermbg=lightgray
 
 set guicursor="n-v-c-sm:block,ci-ve:ver25,r-cr-o:hor20,i:block-blinkwait450-blinkoff400-blinkon250-Cursor/lCursor"
 
