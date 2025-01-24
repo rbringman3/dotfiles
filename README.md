@@ -7,6 +7,11 @@ curl -JLSs https://api.github.com/repos/rbringman3/dotfiles/tarball -o dotfiles.
 stow nvim bash zsh tmux iTerm2
 ```
 
+## or
+cd ~/.dotfiles
+git init
+git pull https://github.com/rbringman3/dotfiles.git
+
 ## For iTerm2
 ```
 # Specify the preferences directory
