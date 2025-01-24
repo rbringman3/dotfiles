@@ -1,5 +1,6 @@
 let g:mapleader = ' '
 let g:maplocalleader = ' '
+let g:gruvbox_invert_selection=0
 
 set cursorline
 " highlight CursorLine term=bold cterm=underline
