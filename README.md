@@ -8,9 +8,14 @@ stow nvim bash zsh tmux iTerm2
 ```
 
 ## or
+```
 cd ~/.dotfiles
 git init
 git pull https://github.com/rbringman3/dotfiles.git
+git remote add dotfiles git@github.com:rbringman3/dotfiles.git
+git push --set-upstream dotfiles main
+
+```
 
 ## For iTerm2
 ```
