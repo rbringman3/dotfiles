@@ -15,6 +15,7 @@ local plugins = {
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-lualine/lualine.nvim',
+  'wfxr/minimap.vim',
   'nvim-treesitter/nvim-treesitter',
   'kenn7/vim-arsync',
   'prabirshrestha/async.vim',
